@@ -1,45 +1,98 @@
-# Infinite WebGL Images
+# Infinite WebGL Gallery
 
-A tutorial explaining how to build an infinite scrolling gallery using WebGL with OGL and GLSL Shaders.
+A modern, interactive web gallery built with WebGL and Three.js, featuring smooth infinite scrolling and immersive visual effects.
 
-![Final Result](cover.jpg)
+[![GitHub stars](https://img.shields.io/github/stars/iblmaeyuvraj/Web-Gallery?style=social)](https://github.com/iblmaeyuvraj/Web-Gallery/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/iblmaeyuvraj/Web-Gallery?style=social)](https://github.com/iblmaeyuvraj/Web-Gallery/network/members)
+[![GitHub issues](https://img.shields.io/github/issues/iblmaeyuvraj/Web-Gallery)](https://github.com/iblmaeyuvraj/Web-Gallery/issues)
+[![GitHub license](https://img.shields.io/github/license/iblmaeyuvraj/Web-Gallery)](https://github.com/iblmaeyuvraj/Web-Gallery/blob/main/LICENSE)
 
-[Article on Codrops](https://tympanus.net/codrops/?p=52634)
+## 🚀 Features
 
-[Demo](http://tympanus.net/Development/.../)
+- Smooth infinite scrolling gallery
+- WebGL-powered 3D effects
+- Responsive design
+- Modern UI/UX
+- Optimized performance
+- Cross-browser compatibility
 
-## Installation
+## 🛠️ Technologies Used
 
-Install dependencies:
+- **WebGL/Three.js** - For 3D rendering and effects
+- **Webpack** - Module bundler
+- **Sass** - Advanced CSS preprocessing
+- **Babel** - JavaScript compiler
+- **PostCSS** - CSS processing
+- **OGL** - Minimal WebGL library
+- **Browser Sync** - Live reloading
 
+## 📦 Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/iblmaeyuvraj/Web-Gallery.git
+cd infinite-webl-gallery
 ```
+
+2. Install dependencies:
+```bash
 npm install
 ```
 
-Compile the code for development and start a local server:
-
-```
+3. Start the development server:
+```bash
 npm start
 ```
 
-Create the build:
+The application will be available at `http://localhost:8081`
 
-```
+## 🏗️ Build
+
+To create a production build:
+
+```bash
 npm run build
 ```
 
-## Credits
+## 🎨 Project Structure
 
-- https://unsplash.com/@planeteelevene
-- https://unsplash.com/@jayson_hinrichsen
+```
+infinite-webl-gallery/
+├── app/              # Application source code
+├── styles/           # SCSS styles
+├── images/           # Image assets
+├── webpack.config.js # Webpack configuration
+└── package.json      # Project dependencies
+```
 
-## Misc
+## 🤝 Contributing
 
-Follow Luis Henrique Bizarro: [Website](https://bizar.ro/), [Twitter](https://twitter.com/lhbizarro), [GitHub](https://github.com/lhbizarro)
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/iblmaeyuvraj/Web-Gallery/issues).
 
-Follow Codrops: [Twitter](http://www.twitter.com/codrops), [Facebook](http://www.facebook.com/codrops), [GitHub](https://github.com/codrops), [Instagram](https://www.instagram.com/codropsss/)
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-## License
-[MIT](LICENSE)
+## 📝 License
 
-Made with :blue_heart: by [Codrops](http://www.codrops.com)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 👨‍💻 Author
+
+**Yuvraj**
+- GitHub: [@iblmaeyuvraj](https://github.com/iblmaeyuvraj)
+
+## 🙏 Acknowledgments
+
+- Thanks to all contributors who have helped shape this project
+- Special thanks to the WebGL and Three.js communities for their amazing tools and resources
+
+## 📞 Contact
+
+If you have any questions or suggestions, please feel free to open an issue or contact me directly.
+
+---
+
+⭐️ If you like this project, please give it a star on GitHub!
